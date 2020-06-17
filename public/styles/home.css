@@ -1,3 +1,21 @@
+/*============================================================ DEFAULT ===========================================================*/
+.agendamento {
+    cursor:pointer;
+    width:180px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFF;
+    font-size:16px;
+    font-weight:400;
+    border-radius:6px;
+    background-color:#1C56D3;
+    background:linear-gradient(162.53deg, #02A9DA 0%, #1C56D3 45.16%, #0046D2 76.82%);
+}
+.agendamento img {
+    margin-left:16px;
+}
 /*============================================================ HEADER ============================================================*/
 header {
     height:70px;
@@ -5,6 +23,28 @@ header {
     align-items:center;
     justify-content:center;
     background-color:#CCC;
+}
+.header-content{
+    display:flex;
+    align-items:center;
+}
+.header-content .menu {
+    margin-left:58px;
+}
+.header-content .menu nav ul {
+    display:flex;
+}
+.header-content .menu nav ul a {
+    color:#FFF;
+    font-size:16px;
+    font-weight:400;
+    margin-right:20px;
+    padding-bottom:20px;
+}
+.header-content .menu nav ul a:hover {
+    transition:all 0.3s;
+    padding-bottom:10px;
+    border-bottom:2px solid #FFF;
 }
 /*============================================================= ABOUT ============================================================*/
 /*=========================================================== SERVICES ===========================================================*/

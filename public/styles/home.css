@@ -1,6 +1,53 @@
-/*============================================================ DEFAULT ===========================================================*/
 /*============================================================ HEADER ============================================================*/
+header {
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#AAA;
+}
+.header-left,
+.header-right {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.header-left .logo,
+.menu nav ul {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.menu {
+    margin-left:8px;
+}
+.menu nav ul li a{
+    color:#FFF;
+    margin-left:10px;
+    margin-right:10px;
+}
+.menu nav ul a:hover {
+    transition:0.2s;
+    padding-bottom:10px;
+    border-bottom:2px solid #FFF;
+}
+.header-right .button-scheduling {
+    cursor:pointer;
+    color:#FFF;
+    width:162px;
+    height:34px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+    background-color:#1C56D3;
+    background:linear-gradient(166.62deg, #02A9DA 0%, #1C56D3 45.16%, #0046D2 76.82%);
+}
+.header-right .button-scheduling img {
+    margin-left:18px;
+}
 /*============================================================ BANNER ============================================================*/
+
 /*============================================================= ABOUT ============================================================*/
 /*=========================================================== SERVICES ===========================================================*/
 /*============================================================ PRICES ============================================================*/

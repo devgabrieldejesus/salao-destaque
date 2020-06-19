@@ -4,7 +4,7 @@ header {
     display:flex;
     align-items:center;
     justify-content:center;
-    background-color:#AAA;
+    background-color:#CCC;
 }
 .header-left,
 .header-right {
@@ -21,7 +21,7 @@ header {
 .menu {
     margin-left:8px;
 }
-.menu nav ul li a{
+.menu nav ul li a {
     color:#FFF;
     margin-left:10px;
     margin-right:10px;
@@ -34,7 +34,7 @@ header {
 .header-right .button-scheduling {
     cursor:pointer;
     color:#FFF;
-    width:162px;
+    width:170px;
     height:34px;
     display:flex;
     align-items:center;
@@ -47,7 +47,132 @@ header {
     margin-left:18px;
 }
 /*============================================================ BANNER ============================================================*/
-
+#banner {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#AAA;
+}
+.banner-content {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.banner-left,
+.banner-right {
+    display:flex;
+}
+.banner-left {
+    margin-top:112px;
+}
+.banner-left span {
+    color:#FFF;
+    font-size:14px;
+    font-weight:normal;
+    line-height:20px;
+    letter-spacing:6px;
+}
+.banner-left h1 {
+    color:#FFF;
+    font-size:40px;
+    font-weight:bold;
+    line-height:48px;
+    max-width:324px;
+    margin:20px 0px 30px 0px;
+}
+.banner-left p {
+    color:#FFF;
+    max-width:413px;
+    margin:0px 0px 30px 0px;
+}
+.banner-options {
+    display:flex;
+}
+.banner-options--services {
+    width:130px;
+    height:47px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+    margin-right:20px;
+    background-color:#FFF;
+}
+.banner-options--services span {
+    font-size:18px;
+    letter-spacing:0;
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-background-clip:transparent;
+    background-image:linear-gradient(162.53deg, #02A9DA 0%, #1C56D3 45.16%, #0046D2 76.82%);
+}
+.banner-options--location {
+    width:152px;
+    height:47px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+    border:2px solid #FFF;
+}
+.banner-options--location span {
+    color:#FFF;
+    font-size:18px;
+    letter-spacing:0;
+}
+.banner-options--services:hover,
+.banner-options--location:hover {
+    transform:translateY(-10px);
+}
+.banner-right {
+    margin-top:60px;
+}
+.banner-bar {
+    flex:1;
+    display:flex;
+    margin-top:120px;
+    margin-bottom:28px;
+    justify-content:space-between;
+}
+.banner-bar--left {
+    flex:2;
+    display:flex;
+    justify-content:center;
+}
+.banner-bar--left--item {
+    margin-left:20px;
+    margin-right:20px;
+}
+.banner-bar--left--item:first-child {
+    margin-left:0px;
+}
+.banner-bar--left--item:hover {
+    transform:translateY(-10px);
+}
+/* Animação do saiba mais */
+@keyframes saibaMais {
+    0% {margin-top:0px;}
+    25% {margin-top:5px;}
+    50% {margin-top:10px;}
+    75% {margin-top:5px;}
+    100% {margin-top:0px;}
+}
+.banner-bar--right {
+    display:flex;
+    align-items:center;
+    font-size:15px;
+    transform:rotate(-90deg);
+    color:var(--color-black);
+    /* Usando animação do saiba mais */
+    animation-name:saibaMais;
+    animation-duration:0.7s;
+    animation-iteration-count:infinite;
+}
+.banner-bar--right span {
+    margin-right:10px;
+    margin-left:10px;
+}
 /*============================================================= ABOUT ============================================================*/
 /*=========================================================== SERVICES ===========================================================*/
 /*============================================================ PRICES ============================================================*/

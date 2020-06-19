@@ -37,10 +37,12 @@ p {
     line-height:20px;
     color:var(--text-color);
 }
-/*=========================================================================================================================*/
-
-
-
+span {
+    color:var(--black-color);
+}
+:hover {
+    transition:all ease 0.3s;
+}
 
 /*===================================================== NORMALIZE CSS =====================================================*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

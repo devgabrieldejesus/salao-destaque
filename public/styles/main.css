@@ -51,7 +51,7 @@ span {
     color:var(--black-color);
 }
 :hover {
-    transition:all ease 0.3s;
+    transition:all 0.3s;
 }
 
 /*===================================================== NORMALIZE CSS =====================================================*/

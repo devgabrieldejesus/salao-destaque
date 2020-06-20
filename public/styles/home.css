@@ -205,8 +205,8 @@ header {
     margin-top:10px;
 }
 .about-right {
-    justify-content:space-between;
     flex-wrap:wrap;
+    justify-content:space-between;
     margin-left:208px;
 }
 .about-right--item {
@@ -223,11 +223,50 @@ header {
     margin-bottom:12px;
 }
 .about-right--item:hover {
+    transition:all 0.5s;
     transform:translateY(20px);
 }
-
-
 /*=========================================================== SERVICES ===========================================================*/
+#services {
+    height:768px;
+    display:flex;
+    padding-top:114px;
+    justify-content:center;
+    background-color:#F1F1F1;
+    background-repeat:no-repeat;
+    background-position:left bottom;
+    background-image:url('/public/assets/services-bg.webp')
+}
+.services-left,
+.services-right {
+    display:flex;
+}
+.services-left p {
+    width:369px;
+    margin-top:10px;
+}
+.services-right {
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-left:56px;
+}
+.services-right--item {
+    width:230px;
+    height:220px;
+    margin-bottom:94px;
+    border-radius:6px;
+    background-color:#FFF;
+    box-shadow:0px 0px 40px #dbdbdb; 
+    padding:29px 15px 30px 20px;
+}
+.services-right--item h3 {
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.services-right--item:hover {
+    transition:all 0.5s;
+    transform:translateY(20px);
+}
 /*============================================================ PRICES ============================================================*/
 /*=========================================================== LOCATION ===========================================================*/
 /*============================================================ FOOTER ============================================================*/

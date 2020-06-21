@@ -3,7 +3,7 @@
 > Website for a barber shop with a scheduling system.
 
 
-![](public/assets/social-preview.png)
+![](public/assets/preview-salao-destaque.png)
 
 
 ## Release history

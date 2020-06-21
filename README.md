@@ -3,7 +3,7 @@
 > Website for a barber shop with a scheduling system.
 
 
-![](public/assets/social-preview.gif)
+![](public/assets/social-preview.png)
 
 
 ## Release history

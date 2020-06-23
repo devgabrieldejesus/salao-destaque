@@ -224,7 +224,8 @@ header {
 }
 .about-right--item:hover {
     transition:all 0.5s;
-    transform:translateY(20px);
+    border:1px solid #0046D2;
+    transform:translateY(-20px);
 }
 /*=========================================================== SERVICES ===========================================================*/
 #services {
@@ -265,7 +266,8 @@ header {
 }
 .services-right--item:hover {
     transition:all 0.5s;
-    transform:translateY(20px);
+    border:1px solid #0046D2;
+    transform:translateY(-20px);
 }
 /*============================================================ PRICES ============================================================*/
 #prices {
@@ -288,10 +290,14 @@ header {
     margin-top:12px;
     margin-bottom:22px;
 }
+.arrow-left,
+.arrow-right {
+    width:56px;
+    height:56px;
+}
 .arrow-left:hover,
 .arrow-right:hover {
     cursor:pointer;
-    transition:all ease 0.3s;
     transform:translateY(-6px)
 } 
 .slider-menu .arrow-right {
@@ -304,12 +310,16 @@ header {
 }
 .slide {
     width:190px;
-    height:300px;
+    height:250px;
     border-radius:6px;
     padding:29px 15px;
     margin-right:20px;
     background-color:#FFF;
     box-shadow:0px 0px 10px #dbdbdb;
+}
+.slide:hover {
+    border:1px solid #0046D2;
+    transform:translateY(-20px);
 }
 .slide img {
     width:40px;
@@ -330,7 +340,24 @@ header {
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     -moz-background-clip:transparent;
+    background-color:#0046D2;
     background-image:linear-gradient(162.53deg, #02A9DA 0%, #1C56D3 45.16%, #0046D2 76.82%);
+}
+#prices .button-scheduling {
+    cursor:pointer;
+    color:#FFF;
+    width:180px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:44px;
+    border-radius:6px;
+    background-color: #1C56D3;
+    background:linear-gradient(166.62deg, #02A9DA 0%, #1C56D3 45.16%, #0046D2 76.82%);
+}
+#prices .button-scheduling:hover {
+    transform:translateY(-6px);
 }
 /*=========================================================== LOCATION ===========================================================*/
 /*============================================================ FOOTER ============================================================*/

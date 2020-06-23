@@ -366,7 +366,7 @@ header {
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-top:114px;
+    padding-top:72px;
     background-color:#FFF;
     background-size:339px;
     background-repeat:no-repeat;
@@ -425,8 +425,22 @@ header {
     transform:translateY(-6px);
 }
 /*============================================================ FOOTER ============================================================*/
-
-
-
+footer {
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#F1F1F1;
+    border-top:1px solid #CCC;
+}
+footer .container{
+    justify-content:center;
+}
+footer a {
+    margin-left:6px;
+}
+footer a:hover {
+    text-decoration:underline;
+}
 /*======================================================= SCHEDULING MODAL =======================================================*/
 /*======================================================= SCHEDULED HOURS ========================================================*/

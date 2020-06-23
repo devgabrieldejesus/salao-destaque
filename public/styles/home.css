@@ -277,6 +277,7 @@ header {
     padding-top:114px;
     justify-content:center;
     background-color:#F1F1F1;
+    background-size:364px;
     background-repeat:no-repeat;
     background-position:right bottom;
     background-image:url('/public/assets/prices-bg.webp')
@@ -360,8 +361,70 @@ header {
     transform:translateY(-6px);
 }
 /*=========================================================== LOCATION ===========================================================*/
+#location {
+    height:768px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:114px;
+    background-color:#FFF;
+    background-size:339px;
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    background-image:url('/public/assets/location-bg.webp')
+}
+.location-map {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:532px;
+    margin-top:12px;
+    padding-bottom:50px;
+    border-radius:6px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url('/public/assets/map.webp');
+}
+.location-map--info {
+    width:364px;
+    height:280px;
+    display:flex;
+    align-items:flex-start;
+    border-radius:6px;
+    padding:20px 20px;
+    background-color:#FFF;
+    box-shadow:0px 0px 40px #EEE;
+}
+.location-map--info-location,
+.location-map--info-phone {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:30px;
+}
+.location-map--info-location img,
+.location-map--info-phone img {
+    width:40px;
+    height:40px;
+    margin-right:6px;
+}
+#location .button-scheduling {
+    cursor:pointer;
+    color:#FFF;
+    width:180px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:44px;
+    border-radius:6px;
+    background-color: #1C56D3;
+    background:linear-gradient(166.62deg, #02A9DA 0%, #1C56D3 45.16%, #0046D2 76.82%);
+}
+#location .button-scheduling:hover {
+    transform:translateY(-6px);
+}
 /*============================================================ FOOTER ============================================================*/
-
 
 
 

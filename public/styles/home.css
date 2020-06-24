@@ -286,6 +286,12 @@ header {
     overflow-x:hidden;
     overflow-y:hidden;
 }
+#slides-area {
+    display:flex;
+    width:200vw;
+    margin-top:22px;
+    transition:all 0.3s;
+}
 .slider-menu {
     display:flex;
     margin-top:12px;
@@ -303,12 +309,6 @@ header {
 } 
 .slider-menu .arrow-right {
     margin-left:16px;
-}
-#slider-area {
-    display:flex;
-    width:200vw;
-    margin-top:22px;
-    transition:all 0.3s;
 }
 .slide {
     width:178px;
@@ -445,3 +445,92 @@ footer a:hover {
 }
 /*======================================================= SCHEDULING MODAL =======================================================*/
 /*======================================================= SCHEDULED HOURS ========================================================*/
+
+
+/*=========================================================== RESPONSIVE =========================================================*/
+@media (max-width:1175px) {
+    .container {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    #bg-main {
+        background-size:70vw;
+    }
+    #about {
+        height:auto;
+    }
+    .about-right {
+        margin-left:50px;
+    }
+    .about-right--item,
+    .services-right--item {
+        width:200px;
+        height:220px;
+        margin-bottom:30px;
+    }
+    #services {
+        height:auto;
+        background-size:70px;
+    }
+    #prices {
+        background-size:200px;
+    }
+    .slide {
+        min-width:200px;
+        min-height:220px;
+    }
+}
+@media (max-width:1000px) {
+    #bg-main {
+        background-size:78vw;
+    }
+    .menu,
+    .menu nav ul li a {
+        margin-left:0;
+    }
+    .banner-left {
+        margin-top:80px;
+        padding-left:20px;
+    }
+    .banner-right {
+        padding-right:20px;
+    }
+    .banner-bar--left {
+        align-items:center;
+        flex-direction:column;
+    }
+    .banner-bar--left--item {
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .banner-right img {
+        height:300px;
+    }
+    .banner-bar--right {
+        display:none;
+    }
+}
+@media (max-width:800px) {
+    #bg-main {
+        background-size:100vw 82vh; 
+    }
+    .header-right {
+        display:none;
+    }
+    .banner-right img {
+        display:none;
+    }
+    #about .container,
+    #services .container {
+        flex-direction:column;
+    }
+    .services-right,
+    .about-right {
+        margin-left:0;
+        margin-right:0;
+        margin-top:30px;
+    }
+}
+@media (max-width:650px) {
+    
+}

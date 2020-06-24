@@ -274,10 +274,10 @@ header {
     height:768px;
     display:flex;
     align-items:center;
-    padding-top:114px;
     justify-content:center;
+    padding-top:72px;
     background-color:#F1F1F1;
-    background-size:364px;
+    background-size:240px;
     background-repeat:no-repeat;
     background-position:right bottom;
     background-image:url('/public/assets/prices-bg.webp')
@@ -304,14 +304,15 @@ header {
 .slider-menu .arrow-right {
     margin-left:16px;
 }
-.slider-area {
+#slider-area {
     display:flex;
-    width:100vw;
+    width:200vw;
     margin-top:22px;
+    transition:all 0.3s;
 }
 .slide {
-    width:190px;
-    height:250px;
+    width:178px;
+    height:244px;
     border-radius:6px;
     padding:29px 15px;
     margin-right:20px;

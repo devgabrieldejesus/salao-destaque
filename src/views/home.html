@@ -17,8 +17,10 @@
         <div class="header-left">
             <div class="logo"><a href="#"><img src="/public/assets/logomarca.webp" alt="Logomarca"></a></div>
             <div class="menu">
-                <nav>
+                <div class="menuMobile" onclick="menuToggle()"><img src="/public/assets/menuMobile.webp" alt="Menu"></div>
+                <nav id="menu">
                     <ul>
+                        <div class="close-menu" onclick="closeMenu()">X</div>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#services">Serviços</a></li>
                         <li><a href="#prices">Preços</a></li>

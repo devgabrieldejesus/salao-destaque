@@ -177,28 +177,28 @@ header {
     transition:all 0.3s;
     transform:translateY(-10px);
 }
-/* Animação do saiba mais */
-@keyframes saibaMais {
-    0% {margin-top:0px;}
-    25% {margin-top:5px;}
-    50% {margin-top:10px;}
-    75% {margin-top:5px;}
-    100% {margin-top:0px;}
-}
 .banner-bar--right {
     display:flex;
     align-items:center;
     font-size:15px;
-    transform:rotate(-90deg);
     color:var(--color-black);
     /* Usando animação do saiba mais */
     animation-name:saibaMais;
     animation-duration:0.7s;
     animation-iteration-count:infinite;
 }
+/* Animação do saiba mais */
+@keyframes saibaMais {
+    0% {transform:translateY(0px); }
+    25% {transform:translateY(5px); }
+    50% {transform:translateY(10px); }
+    75% {transform:translateY(5px); }
+    100% {transform:translateY(0px); }
+}
 .banner-bar--right span {
     margin-right:10px;
     margin-left:10px;
+    transform:rotate(-90deg);
 }
 /*============================================================= ABOUT ============================================================*/
 #about {
@@ -290,6 +290,7 @@ header {
 }
 /*============================================================ PRICES ============================================================*/
 #prices {
+    overflow:hidden;
     height:768px;
     display:flex;
     align-items:center;
@@ -307,8 +308,9 @@ header {
 }
 #slides-area {
     display:flex;
-    width:200vw;
+    width:360vw;
     margin-top:22px;
+    margin-left:0vw;
     transition:all 0.3s;
 }
 .slider-menu {
@@ -643,5 +645,11 @@ footer a:hover {
     }
     .location-map {
         background:none;
+    }
+}
+@media (max-width:414px) {
+    .banner-bar--left--item {
+        margin-left:10px;
+        margin-right:10px;
     }
 }

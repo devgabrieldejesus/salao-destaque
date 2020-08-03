@@ -8,6 +8,8 @@
 
 ## Release history
 
+* 0.0.2
+    * Finished project and studying the possibility of adding `new resources`
 * 0.0.1
     * Work in `progress`
 

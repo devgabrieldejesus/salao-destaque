@@ -1,10 +1,8 @@
 # Salão Destaque
+Website for a barber shop with a scheduling system.
 
-> Website for a barber shop with a scheduling system.
-
-
+`Web preview`
 ![](public/assets/social-preview.gif)
-
 
 ## Release history
 
